@@ -1,0 +1,1 @@
+function n(o,t=500){let u;return(...r)=>{clearTimeout(u);let e=t.value;e&&typeof e!="number"&&(console.error("delay must be of type number"),e=Number(e)),u=setTimeout(()=>o(...r),e||t)}}export{n as u};
